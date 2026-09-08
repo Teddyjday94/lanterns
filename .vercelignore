@@ -1,0 +1,6 @@
+.next
+node_modules
+upload
+lantern-assets
+tests
+*.log

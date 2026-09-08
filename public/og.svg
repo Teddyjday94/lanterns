@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g"><stop stop-color="#1c8c51" stop-opacity=".55"/><stop offset="1" stop-color="#020805" stop-opacity="0"/></radialGradient>
+    <pattern id="p" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0v64" fill="none" stroke="#17452a" stroke-opacity=".35"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#020805"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="940" cy="230" r="330" fill="url(#g)"/>
+  <path d="M880 92l112 64v128l-112 64-112-64V156z" fill="none" stroke="#31ec89" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M880 142l68 40v77l-68 39-68-39v-77z" fill="#31ec89" fill-opacity=".12" stroke="#8affbd" stroke-opacity=".55"/>
+  <text x="80" y="132" fill="#31ec89" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="9">THOMAS DAY · CREATIVE PORTFOLIO</text>
+  <text x="76" y="286" fill="#e8fff1" font-family="Impact,Arial Black,sans-serif" font-size="112">KAEL VEYR</text>
+  <text x="80" y="370" fill="none" stroke="#31ec89" stroke-width="2" font-family="Impact,Arial Black,sans-serif" font-size="75">THE NEON RENEGADE</text>
+  <text x="82" y="504" fill="#8ba396" font-family="Arial,sans-serif" font-size="26">Websites · gaming content · animation · original worlds</text>
+  <path d="M82 548h415" stroke="#31ec89" stroke-width="4"/>
+</svg>
