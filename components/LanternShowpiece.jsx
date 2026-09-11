@@ -23,6 +23,7 @@ export function LanternShowpiece() {
       style={{
         "--rotation-duration": motion.rotationDuration,
         "--sway-duration": motion.swayDuration,
+        "--depth-duration": motion.depthDuration,
         "--glow-intensity": motion.glowIntensity,
       }}
     >
@@ -47,11 +48,18 @@ export function LanternShowpiece() {
         onPointerLeave={() => setEnergized(false)}
       >
         <span className="lantern-sway">
+          <span className="lantern-ground-shadow" aria-hidden="true" />
           <span className="lantern-rotator">
-            <img
-              src="/emerald-sentinel-lantern.webp"
-              alt="Ornate emerald lantern glowing with arcane energy"
-            />
+            <span className="lantern-depth" aria-hidden="true">
+              <img src="/emerald-sentinel-lantern.webp" alt="" />
+            </span>
+            <span className="lantern-face">
+              <img
+                src="/emerald-sentinel-lantern.webp"
+                alt="Ornate emerald lantern glowing with arcane energy"
+              />
+            </span>
+            <span className="lantern-sheen" aria-hidden="true" />
           </span>
         </span>
       </button>
