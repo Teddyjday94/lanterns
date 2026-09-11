@@ -15,5 +15,7 @@ test('features HandFX and omits retired portfolio entries', () => {
   assert.equal(projects.some((project) => project.title === 'Nodewatch'), false);
   assert.equal(projects.some((project) => project.title === 'Legacy Tattoo Studio'), false);
   assert.equal(projects.some((project) => project.title === 'Dominion: God Simulator'), false);
-  assert.equal(projects.some((project) => project.title === 'Skybound Dominion'), true);
+  for (const retiredTitle of ['Broadcast Raids', 'Echo Hunt', 'Spellbreaker', 'Skybound Dominion']) {
+    assert.equal(projects.some((project) => project.title === retiredTitle), false, `${retiredTitle} should be retired`);
+  }
 });
